@@ -1,0 +1,7 @@
+f=open("shubhz.txt")
+# print(f.tell())
+# print(f.readline())
+# print(f.tell())
+f.seek(5)
+# print(f.readline())
+f.close()
